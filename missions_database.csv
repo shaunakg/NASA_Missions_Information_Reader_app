@@ -1,4 +1,7 @@
 ﻿URL,Name
+https://www.nasa.gov/missions/, list
+https://raw.githubusercontent.com/shaunakg/NASA_Missions_Information_Reader_app/master/missions_database.csv, database
+
 https://www.nasa.gov/,NASA
 https://example.com,Topics
 https://www.nasa.gov/topics/humans-in-space,Humans_in_Space
