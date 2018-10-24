@@ -1,0 +1,68 @@
+<resources>
+    <!--Program Runtime Strings (VITAL TO PROGRAM)-->
+    <string name="database_storage_folder">NASA_missions_information</string>
+    <string name="developer_mode_tries">7</string> <!-- This will be converted to int, so put a number (also please forgive me) -->
+
+    <!--Informative Strings (VITAL FOR USER)-->
+    <string name="app_name">NASA Missions Information Reader</string>
+    <string name="getMission_button_text">Get Information/Clear</string>
+    <string name="testRoutine_button_text">Test Button - DEVELOPERS</string>
+    <string name="feature_not_implemented_toast">Feature not implemented.</string>
+    <string name="no_mission_warning_text">Please enter a mission name and try again.\n\n(If you think this is an error, report it to github.com\/shaunakg)</string>
+    <string name="no_mission_warning_title">No mission name</string>
+    <string name="permission_required_title">Storage write permission required</string>
+    <string name="permission_required_message">This app requires storage permission to store and read the mission database. You must click OK to use this app, otherwise contact devs at https://git.io/fxsln.</string>
+    <string name="database_exception_message">Database exception. Please contact developers (https://git.io/fxsln).</string>
+    <string name="database_exception_title">"(Error) Database Exception"</string>
+    <string name="open_link_checkbox_text">Open link in browser (if valid)</string>
+    <string name="disabled_developer_mode_checkbox_text">Developer mode disabled ❌ [0]</string>
+    <string name="enabled_developer_mode_checkbox_text">Developer mode enabled ✅</string>
+    <string name="tried_developer_mode_checkbox_text">Developer mode disabled ❌</string>
+    <string name="developer_exception_message">Developer routine error. What did you think was going to happen? Contact developers (https://git.io/fxsln).</string>
+
+    <string name="txtCredits_message"><a href="https://github.com/shaunakg/">Made with lots of time by Shaunak G.</a></string>
+
+
+    <string name="missionFieldHint">
+        Enter a mission name (example: \"apollo\") or one of the following commands and press \"GET INFORMATION\":\n
+        \n
+        > \"list\" (Get the URL where there is a link to all missions - hosted by NASA)\n
+        > \"database\" (Get the URL to the actual csv database used in the app, may hold more detail)\n
+        > \"license\" (See a copy of the GNU General Public License v3, which this app is licensed under) \n\n
+        Your mission URL will appear here, to get rid of it press the \"GET INFORMATION/CLEAR\" button again.\n\n
+        Copyright © 2018 @shaunakg (GitHub)
+    </string>
+
+    <string name="license_message">
+        This program is free software: you can redistribute it and/or modify\n
+        it under the terms of the GNU General Public License as published by\n
+        the Free Software Foundation, either version 3 of the License, or\n
+        (at your option) any later version.\n
+    \n
+        This program is distributed in the hope that it will be useful,\n
+        but WITHOUT ANY WARRANTY; without even the implied warranty of\n
+        MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the\n
+        GNU General Public License for more details.\n
+    \n
+        You should have received a copy of the GNU General Public License\n
+        along with this program.  If not, see https://www.gnu.org/licenses/.##
+    </string>
+
+    <!-- Test Strings (don't necessarily need translation) -->
+    <string name="information_dialog_test_title">This is a test dialog.</string>
+
+    <string name="information_dialog_test_text">
+    This is a multi-line test string.\n
+    It should be shown in a dialog box.\n
+    \n
+    This line should wrap, if it has any common decency and regard for its developer.\n
+    \n
+    Report bugs to\:\n
+    https\:\/\/github.com\/shaunakg\/ (recommended)\n
+    or leave a review in the Play Store.\n
+    \n
+    Thanks for using this app.\n
+    \n
+    Note\: In case you are seeing this string as a actual user of this app, please report it as a bug. For now, you can close this dialog box.
+    </string>
+</resources>
